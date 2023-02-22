@@ -1,0 +1,14 @@
+.Navbar {
+  display: flex;
+justify-content: space-around;
+}
+.rightSideContent,
+.leftSideContent {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.Navbar-image img{
+    width: 200px;
+    
+}
