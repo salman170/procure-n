@@ -1,6 +1,8 @@
 .Navbar {
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
+  /* background-color:rgba(211, 211, 211, 0.527); */
+  background-size: 300px 100px;
 }
 .rightSideContent,
 .leftSideContent {
@@ -8,7 +10,11 @@ justify-content: space-around;
   justify-content: space-around;
   width: 30%;
 }
-.Navbar-image img{
-    width: 200px;
-    
+.Navbar-image img {
+    padding: 3px 30px 10px 30px;
+    height: 80px;
+}
+.Navbar-image{
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 90px 90px;
 }
