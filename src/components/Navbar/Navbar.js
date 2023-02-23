@@ -6,8 +6,8 @@ import { FaSignInAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="Navbar" >
-      <div className="rightSideContent">
+    <div className="Navbar " >
+      <div className="rightSideContent p-6 ">
         <div><h2>Home</h2></div>
         <div><h2>About</h2></div>
       </div>
@@ -18,12 +18,12 @@ const Navbar = () => {
           srcset=""
         />
       </div>
-      <div className="leftSideContent">
+      <div className="leftSideContent p-6">
       <div><h2>Services</h2></div>
       <div><h2>Contact Us</h2></div>
       <div>
 
-      <FaSignInAlt style={{marginTop:"20px"}} size={35}/>
+      <FaSignInAlt  size={35}/>
       </div>
       </div>
     </div>
